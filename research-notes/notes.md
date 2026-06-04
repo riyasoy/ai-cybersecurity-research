@@ -2,6 +2,8 @@
 
 
 ## What is Cybersecurity?
+### CISA
+- Cybersecurity is the art of protecting networks, devices, and data from unauthorized access or criminal use and the practice of ensuring confidentiality, integrity, and availability of information.
 ### Microsoft takeaways 
 
 - Cybersecurity is the practice of protecting your critical systems, data, and networks from digital attacks.
@@ -76,14 +78,60 @@ Ability to scale: AI cybersecurity solutions can scale to protect large and comp
 
 ## AI for Threat Detection
 
+### IBM 
+Organizations can incorporate AI into cybersecurity practices in many ways. The most common AI security tools use machine learning (ML) and deep learning to analyze vast amounts of data, including traffic trends, app usage, browsing habits and other network activity data.
+
+This analysis allows AI to discover patterns and establish a security baseline. Any activity outside that baseline is immediately flagged as an anomaly and potential cyberthreat, allowing for swift remediation.
+
+AI security tools also frequently use generative AI (gen AI), popularized by large language models (LLMs), to convert security data into plain text recommendations, streamlining decision-making for security teams.
+
+Research shows that AI security tools significantly improve threat detection and incident response. According to the IBM Cost of a Data Breach Report, organizations with extensive security AI and automation identified and contained data breaches 108 days faster on average than organizations without AI tools.
+
+### Microsoft -
+- Microsoft leverages vast telemetry and advanced machine learning models to detect, mitigate, and respond to cyber threats in real time. By analyzing over 100 trillion daily signals, its AI-driven platforms proactively identify behavioral anomalies, zero-day vulnerabilities, and AI-specific exploits before they compromise organizational infrastructure.
+Key AI-Powered Threat Detection ToolsMicrosoft Security Copilot: An AI assistant that uses autonomous security agents to speed up threat investigations, summarize incidents, and surface hidden attack vectors using natural language
+
+Microsoft Defender for Cloud: Actively monitors generative AI applications and agents for data leakages, jailbreaks, data poisoning, and credential theft in real time
+Microsoft Defender XDR: Synthesizes data across your digital estate (endpoints, email, identities, cloud apps) to disrupt advanced attacks like ransomware automatically.
+
+### crowdstrike 
+CrowdStrike utilizes AI-native cybersecurity across its CrowdStrike Falcon Platform to stop breaches, combining behavioral analytics, Threat AI and human expertise to combat the massive 89% year-over-year rise in AI-enabled cyberattacks.AI-Driven Threat Detection ComponentsCrowdStrike Signal: A self-learning AI-powered detection engine that establishes behavioral baselines for individual hosts, users, and networks to surface subtle, early-stage, and stealthy threats in real-time.CrowdStrike Falcon AIDR (AI Detection and Response): Protects an organization's AI ecosystem by illuminating shadow AI, blocking prompt injections, and preventing sensitive data leaks.Charlotte AI & Threat AI: Agentic AI systems that instantly analyze petabytes of cross-domain telemetry, automate routine analyst workflows (like malware analysis), and provide natural-language incident investigation.CrowdStrike AI Systems Security Assessment: Proactive services that simulate adversary attacks (like red-teaming Large Language Models) against internal AI infrastructure.
 
 
 ## AI for Malware Detection
 
+- AI malware detection IBM
+
+- IBM uses artificial intelligence for malware detection by moving beyond traditional, signature-based approaches into real-time behavioral analysis. 
+- How IBM's AI Detects Malware
+- Anomaly-Based Detection: Rather than only relying on known malware signatures, the AI learns what "normal" activity looks like for a specific host, device, or network, allowing it to instantly spot deviations and zero-day threats.
+- Agentic AI: IBM continuously researches and incorporates agentic AI approaches for malware analysis, utilizing Large Language Models (LLMs) broken down into smaller, systemic reasoning steps to improve detection accuracy.
+- Rapid Triage: IBM's AI capabilities can identify and isolate anomalies rapidly, with certain defensive solutions detecting ransomware behaviors in under 60 seconds.
+
+
 ## AI-Powered Cyber Threats
 
-#references 
+- AI phishing attacks
 
+AI phishing attacks use generative artificial intelligence and machine learning to automate and scale highly personalized social engineering scams. By utilizing Large Language Models (LLMs) and deepfake technology, attackers can bypass traditional security filters and manipulate victims using flawless, context-aware messages, cloned voices, and fake video calls.
+
+- AI deepfake cybersecurity
+
+AI deepfakes are hyper-realistic, AI-generated synthetic media—like voice clones or video face-swaps—that pose severe cybersecurity risks. Attackers leverage these tools to execute highly convincing social engineering, bypassed biometric security controls, and targeted financial fraud at scale.
+
+Top ThreatsIdentity Theft & Fraud: Attackers synthesize voice recordings and fake IDs to breach bank call centers, bypass authentication, and authorize fraudulent wire transfers or account takeovers.
+
+Business Email Compromise (BEC): Fraudsters use deepfake audio to mimic a CEO's voice in urgent video calls or voicemails, manipulating employees into transferring company funds or revealing sensitive data.
+
+Social Engineering: Deepfakes drop the cost of creating targeted, hyper-personalized phishing campaigns to near zero, lowering human suspicion during malicious social engineering attempts.
+
+
+- AI generated malware
+
+AI-generated malware refers to malicious code, phishing tools, or ransomware whose structure and execution are dynamically assisted or autonomously built by Generative AI and Large Language Models (LLMs). It significantly lowers the technical barrier to entry for cybercrime, allowing attackers to rapidly produce unique code and evade signature-based security.
+
+#references 
+- CISA - https://www.cisa.gov/news-events/news/what-cybersecurity
 - Microsoft - https://www.microsoft.com/en-us/security/business/security-101/what-is-cybersecurity
 - cisco - https://www.cisco.com/site/in/en/learn/topics/security/what-is-cybersecurity.html
 - IBM - https://www.ibm.com/think/topics/cybersecurity
