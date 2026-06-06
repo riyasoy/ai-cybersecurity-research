@@ -1,37 +1,52 @@
-# AI in Cybersecurity
+# AI in Cybersecurity: Threat Detection, Security Operations, and Emerging Risks
 
-A research-oriented project exploring how Artificial Intelligence is transforming modern cybersecurity practices, threat detection, cyber defense, and digital security.
+## Overview
 
-## Project Overview
+This research project explores how Artificial Intelligence is transforming modern cybersecurity operations.
 
-Artificial Intelligence is increasingly being used to detect cyber threats, automate security operations, analyze large-scale attack patterns, and improve organizational resilience against cyberattacks.
-
-This project examines both the opportunities and risks associated with the use of AI in cybersecurity.
+The report examines AI-powered threat detection, malware analysis, intrusion detection systems (IDS), security operations centers (SOC), cybersecurity frameworks, adversarial AI threats, and the future of AI-driven security.
 
 ## Topics Covered
 
-- Introduction to AI in Cybersecurity
+- Cybersecurity Fundamentals
+- AI in Cybersecurity
 - AI-Powered Threat Detection
-- Malware Analysis
-- Phishing Detection
+- AI Malware Detection
+- AI-Generated Cyber Threats
+- Intrusion Detection Systems (IDS)
 - Security Operations Centers (SOC)
-- AI for Incident Response
-- Cybersecurity Risks of AI
+- NIST Cybersecurity Framework
+- Zero Trust Security
 - Adversarial AI Attacks
-- Ethical and Governance Challenges
+- Data Poisoning
+- Model Drift
+- Cybersecurity Frameworks
 - Future of AI in Cybersecurity
 
-## Author
+## Key Takeaways
 
-Riya Soy
+- AI is transforming cybersecurity operations.
+- Threat detection is becoming increasingly automated.
+- Adversarial attacks introduce new risks for AI systems.
+- Frameworks such as NIST CSF and Zero Trust are becoming critical security models.
+- Human expertise remains essential despite advances in AI.
 
-## Project Roadmap
+## Research Focus
 
-- [ ] Research Phase
-- [ ] Draft Development
-- [ ] Review and Editing
-- [ ] Final Publication
+This project focuses on the intersection of:
 
-## Project Status
+- Artificial Intelligence
+- Cybersecurity
+- Risk Management
+- Governance
+- Emerging Technologies
 
-🔄 Research In Progress
+## Repository Structure
+
+- `research-notes/` – Research notes and source material
+- `draft.md` – Main research report
+- `references.md` – Sources and references
+
+## Disclaimer
+
+This project is intended for educational and research purposes. It is not professional cybersecurity or legal advice.
