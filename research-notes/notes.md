@@ -227,6 +227,122 @@ Upskilling Juniors: New hires face a steep learning curve. GenAI acts as an alwa
 
 Freeing Senior Analysts: By handling routine L1 triage tasks and tickets, GenAI frees up senior staff to focus on high-impact strategic priorities and complex threat hunting.
 
+
+
+## NIST Cybersecurity Framework
+
+The NIST Cybersecurity Framework (NIST CSF) provides comprehensive guidance and best practices that private sector organizations can follow to improve information security and cybersecurity risk management.
+
+The National Institute of Standards and Technology (NIST) is a non-regulatory agency that promotes innovation by advancing measurement science, standards and technology.
+
+The NIST CSF is flexible enough to integrate with the existing security processes within any organization, in any industry. It provides an excellent starting point for implementing information security and cybersecurity risk management in virtually any private sector organization in the United States.
+NIST Cybersecurity Framework core structure
+NIST Cybersecurity Framework includes functions, categories, subcategories and informative references.
+
+Functions give a general overview of security protocols of best practices. Functions are not intended to be procedural steps but are performed “concurrently and continuously to form an operational culture that addresses the dynamic cybersecurity risk.” Categories and subcategories provide more concrete action plans for specific departments or processes within an organization.
+
+Examples of NIST functions and categories include:
+
+Identify: To protect against cyberattacks, the cybersecurity team needs a thorough understanding of the organization's most important assets and resources. The identify function includes categories such as asset management, business environment, governance, risk assessment, risk management strategy and supply chain risk management.
+
+Protect: The protect function covers much of the technical and physical security controls for developing and implementing appropriate safeguards and protecting critical infrastructure. These categories are identity management and access control, awareness and training, data security, information protection processes and procedures, maintenance and protective technology.
+
+Detect: The detect function implements measures that alert an organization to cyberattacks. Detect categories include anomalies and events, security, continuous monitoring and detection processes.
+
+Respond: The respond function categories ensure the appropriate response to cyberattacks and other cybersecurity events. Specific categories include response planning, communications, analysis, mitigation and improvements.
+
+Recover: Recovery activities implement plans for cyber resilience and ensure business continuity in the event of a cyberattack, security breach or other cybersecurity event. The recovery functions are recovery planning improvements and communications.
+
+ref- https://www.ibm.com/think/topics/nist
+
+## Zero Trust Security
+
+What is Zero Trust?
+Zero Trust is a cybersecurity strategy built on the philosophy of "never trust, always verify". It assumes all users, devices, and connections are untrusted by default, regardless of whether they are inside or outside the corporate network.
+
+
+[Zero trust is a security strategy for modern multicloud networks. Instead of focusing on the network perimeter, a zero trust security model enforces security policies for each individual connection between users, devices, applications and data.
+
+Zero trust operates on the principle of “never trust, always verify” rather than granting implicit trust to all users inside a network. 
+
+https://www.ibm.com/think/topics/zero-trust ]
+
+
+Why traditional perimeter security is insufficient?
+Core principle:
+Never Trust, Always Verify
+Collect notes on:
+Identity verification
+Identity
+Authenticating user identities and granting those users access only to approved enterprise resources is a fundamental capability of zero trust security.
+
+Common tools that organizations use for this purpose include identity and access management (IAM) systems, single sign-on (SSO) solutions and multifactor authentication (MFA).
+
+Verify explicitly	Every access request is authenticated and authorized using all available signals.
+
+
+Least privilege access
+
+Use least privilege access	User and workloads get only the access they need, for the shortest time required.
+
+
+Continuous monitoring
+
+Zero trust continuous monitoring is a security model where every user, device, and connection is constantly authenticated, authorized, and evaluated in real time. Rather than granting access just once at login, it continuously assesses behavior and context during an active session to instantly detect anomalies and block threats.
+
+Multi-factor authentication
+Zero Trust Multi-Factor Authentication (MFA) is a foundational security strategy that eliminates implicit trust. Operating on the principle of "never trust, always verify," it demands continuous authentication, meaning every user and device must be validated before accessing any network or application, regardless of their location
+
+## Adversarial AI Attacks
+
+Adversarial AI attacks are deliberate attempts to manipulate, deceive, or exploit machine learning models by feeding them intentionally modified inputs or corrupted training data. These threats force AI systems to make incorrect predictions, bypass security layers, or leak sensitive information, ultimately undermining system reliability and user trust.
+
+## Data Poisoning
+
+Data poisoning is a cyberattack where malicious actors intentionally tamper with a dataset used to train or fine-tune an AI model. By injecting corrupted, false, or biased samples, attackers manipulate the model's behavior to induce hidden vulnerabilities, degrade overall accuracy, or force specific, erroneous predictions.How it WorksUnlike traditional attacks that occur during the operational phase, data poisoning strikes directly at the training or fine-tuning phase of an AI/ML lifecycle. Attackers achieve this through three primary methods:
+
+Data Injection: Adding false or misleading samples directly into the training dataset.
+
+Data Modification: Changing existing records, labels, metadata, or features within the dataset.
+
+Data Deletion: Removing specific segments of data to intentionally underrepresent certain facts, thereby heavily skewing learned behavior.
+
+## Model Drift
+
+Model drift (or model decay) is the degradation of a machine learning model's predictive power over time. It occurs because real-world environments, user behaviors, or underlying data distributions constantly evolve. As the production data diverges from the data used during training, the model's logic becomes outdated, leading to faulty decisions.
+
+## Cybersecurity Frameworks
+
+A cybersecurity framework is a structured set of guidelines, standards, and best practices that organizations use to manage, mitigate, and reduce cyber risks. It acts as a standardized blueprint to assess vulnerabilities, protect digital assets, and establish consistent security operations.
+
+The NIST Cybersecurity Framework (CSF 2.0) is the most widely adopted model globally. 
+
+ISO/IEC 27001: A globally recognized, certifiable set of standards focusing on the establishment, implementation, and maintenance of an Information Security Management System (ISMS).
+
+Center for Internet Security (CIS) Controls: A prescriptive, highly actionable set of 18 critical security controls (formerly known as the SANS Top 20) prioritized for immediate defense.
+
+HITRUST CSF: A highly regulated framework specifically built for healthcare, financial services, and organizations that handle deeply sensitive data and require heavy compliance auditing.
+
+MITRE ATT&CK: A knowledge base of adversary tactics and techniques used by security teams to understand attacker behavior and test defenses.
+
+
+## Future of AI in Cybersecurity
+
+
+Artificial Intelligence is expected to play an increasingly important role in cybersecurity as organizations face a growing number of sophisticated and rapidly evolving cyber threats. Traditional security tools often struggle to process the enormous volume of security data generated by modern networks, making AI-driven solutions essential for improving threat detection, response, and risk management.
+
+One of the most significant developments is the rise of autonomous security operations. AI-powered Security Operations Centers (SOCs) can analyze millions of security events in real time, prioritize alerts, automate investigations, and assist analysts in responding to incidents more efficiently. Future AI systems may be capable of automatically isolating compromised devices, blocking malicious activities, and initiating remediation actions with minimal human intervention.
+
+Predictive cybersecurity is another emerging trend. By analyzing historical threat intelligence, user behavior patterns, and network activity, AI systems can identify vulnerabilities and predict potential attack paths before they are exploited. This proactive approach enables organizations to strengthen defenses and reduce the likelihood of successful cyberattacks.
+
+Generative AI is also transforming cybersecurity operations. Security professionals can use large language models to summarize incident reports, assist with threat hunting, generate security documentation, and simplify complex investigations. However, cybercriminals are also leveraging generative AI to develop more convincing phishing campaigns, automate malware development, and create highly realistic deepfakes, increasing the sophistication of cyber threats.
+
+The adoption of AI within cloud security, identity management, and Zero Trust architectures is expected to accelerate. AI-powered systems can continuously monitor user behavior, detect anomalies, and dynamically adjust access permissions based on risk levels. This enables organizations to respond more effectively to evolving threats while maintaining secure access to critical resources.
+
+Despite these advantages, the future of AI in cybersecurity presents new challenges. Organizations must address concerns such as adversarial AI attacks, data poisoning, model drift, privacy risks, and overreliance on automated decision-making. Human oversight will remain essential to ensure that AI-driven security systems operate accurately, ethically, and transparently.
+
+Ultimately, the future of cybersecurity will likely involve close collaboration between human analysts and AI systems. Rather than replacing cybersecurity professionals, AI is expected to enhance their capabilities by enabling faster threat detection, more effective incident response, and stronger protection against increasingly complex cyber threats.
+
 #references 
 
 
