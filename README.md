@@ -54,6 +54,10 @@ This project focuses on the intersection of:
 - `article.md` – Final article version
 - `references.md` – Sources and references
 
+## Project Status
+
+Completed Research Project
+
 ## Disclaimer
 
 This project is intended for educational and research purposes only. It does not constitute professional cybersecurity, legal, or risk-management advice.
