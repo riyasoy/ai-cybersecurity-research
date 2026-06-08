@@ -16,14 +16,6 @@
 
 ## Security Operations Centers (SOC)
 
-## AI-Powered Cyber Threats
-
-### AI Phishing Attacks
-
-### AI Deepfakes
-
-### AI-Generated Malware
-
 ## Zero Trust Security
 
 ## Adversarial AI Attacks
@@ -32,13 +24,23 @@
 
 ## Model Drift
 
+## AI-Powered Cyber Threats
+
+### AI Phishing Attacks
+
+### AI Deepfakes
+
+### AI-Generated Malware
+
 ## Cybersecurity Frameworks
 
-### NIST Cybersecurity Framework
+### NIST Cybersecurity Framework (NIST CSF 2.0)
 
 ### ISO/IEC 27001
 
 ### CIS Controls
+
+### HITRUST CSF
 
 ### MITRE ATT&CK
 
