@@ -292,12 +292,17 @@ One of the key strengths of the NIST CSF is its flexibility. The framework can b
 
 ## Core Structure of NIST CSF
 
-The framework is organized into functions, categories, subcategories, and informative references.
+### Functions
+provide high-level cybersecurity outcomes.
 
-### Functions : provide high-level cybersecurity outcomes.
-### Categories : group cybersecurity activities into specific areas.
-### Subcategories : provide detailed technical and operational objectives.
-### Informative References : connect framework outcomes to existing standards and best practices.
+### Categories
+group cybersecurity activities into specific areas.
+
+### Subcategories
+provide detailed technical and operational objectives.
+
+### Informative References
+connect framework outcomes to existing standards and best practices.
 
 These elements work together to help organizations build a comprehensive cybersecurity program.
 
@@ -678,11 +683,11 @@ Rather than relying on ad-hoc security measures, frameworks provide a structured
 
 ## Major Cybersecurity Frameworks
 
-### NIST Cybersecurity Framework (CSF)
+### NIST AI Risk Management Framework (AI RMF)
 
-The NIST Cybersecurity Framework (CSF 2.0) is one of the most widely adopted cybersecurity frameworks globally. Developed by the National Institute of Standards and Technology (NIST), it provides guidance for identifying, protecting, detecting, responding to, and recovering from cybersecurity threats.
+The NIST AI Risk Management Framework (AI RMF) helps organizations identify, assess, and manage risks associated with artificial intelligence systems. It focuses on trustworthiness, governance, transparency, privacy, security, and responsible AI deployment.
 
-The framework is flexible and can be adopted by organizations of different sizes and industries.
+As AI becomes increasingly integrated into cybersecurity operations, frameworks such as the AI RMF help organizations manage risks related to adversarial attacks, data poisoning, model drift, and AI governance.
 
 ### ISO/IEC 27001
 
@@ -777,8 +782,6 @@ As AI technologies continue to evolve, the future of cybersecurity will increasi
 - National Cyber Security Centre (NCSC UK) – What is Cyber Security?
   https://www.ncsc.gov.uk/section/about-ncsc/what-is-cyber-security
 
----
-
 ## AI in Cybersecurity
 
 - Microsoft Security – AI for Cybersecurity
@@ -786,8 +789,6 @@ As AI technologies continue to evolve, the future of cybersecurity will increasi
 
 - IBM – AI Security
   https://www.ibm.com/think/topics/ai-security
-
----
 
 ## Cybersecurity Frameworks
 
@@ -806,8 +807,6 @@ As AI technologies continue to evolve, the future of cybersecurity will increasi
 - MITRE ATT&CK Framework
   https://attack.mitre.org
 
----
-
 ## Zero Trust Security
 
 - IBM – Zero Trust Security
@@ -815,8 +814,6 @@ As AI technologies continue to evolve, the future of cybersecurity will increasi
 
 - Microsoft – Zero Trust Architecture
   https://www.microsoft.com/en-us/security/business/zero-trust
-
----
 
 ## Security Operations and Threat Detection
 
@@ -829,8 +826,17 @@ As AI technologies continue to evolve, the future of cybersecurity will increasi
 - IBM Security Intelligence
   https://www.ibm.com/security
 
----
+## AI Security and Adversarial AI
+
+- NIST AI Risk Management Framework (AI RMF)
+  https://www.nist.gov/itl/ai-risk-management-framework
+
+- OWASP Top 10 for Large Language Model Applications
+  https://owasp.org/www-project-top-10-for-large-language-model-applications/
+
+- MITRE ATLAS
+  https://atlas.mitre.org
 
 ## Additional Notes
 
-All notes and summaries in this report were compiled from publicly available resources, official cybersecurity guidance, industry reports, and documentation published by leading organizations including CISA, NIST, Microsoft, IBM, Cisco, MITRE, CIS, ISO, CrowdStrike, and NCSC UK.
+All notes and summaries in this report were compiled from publicly available resources, official cybersecurity guidance, industry reports, and documentation published by leading organizations including CISA, NIST, Microsoft, IBM, Cisco, MITRE, CIS, ISO, CrowdStrike, OWASP, and NCSC UK.
